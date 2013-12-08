@@ -7,7 +7,7 @@ $(function(){
                                         $("#reloadCaptcha").click(function (ev) {
                                                 ev.preventDefault();
                                                 d = new Date();
-                                                $("#captchaImage").attr("src", "../captcha.php?t="+d.getTime());
+                                                $("#captchaImage").attr("src", "/captcha.php?t="+d.getTime());
                                         });
                                         $(this).parent().hide();
                                 });
