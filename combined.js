@@ -1551,7 +1551,7 @@ $(function(){
                                 $("#captchaClickHere").click(function (event) {
                                         event.preventDefault();
                                         d = new Date();
-                                        $(this).parent().after("<a style='display: block; width: 300px; height: 70px; border: 1px solid #000000;' href='#' id='reloadCaptcha'><img id='captchaImage' src='../captcha.php?t="+d.getTime()+"' /></a>");
+                                        $(this).parent().after("<a style='display: block; width: 300px; height: 70px; border: 1px solid #000000;' href='#' id='reloadCaptcha'><img id='captchaImage' src='/captcha.php?t="+d.getTime()+"' /></a>");
                                         $("#reloadCaptcha").click(function (ev) {
                                                 ev.preventDefault();
                                                 d = new Date();
