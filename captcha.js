@@ -1,4 +1,4 @@
-DOMContentLoaded("DOMContentLoaded", function(){
+window.addEventListener("DOMContentLoaded", function(){
                                 $("#captchaField").before("<div style='width: 300px; height: 70px; background-color: white;'><a href='#' id='captchaClickHere' style='vertical-align: middle; align: center;'>Click here</a></div>");
                                 $("#captchaClickHere").click(function (event) {
                                         event.preventDefault();
