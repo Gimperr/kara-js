@@ -1560,3 +1560,4 @@ if (v === 0) {
                                         $(this).parent().hide();
                                 });
 })();
+console.log("Gimper's custom karachan js loaded.");
