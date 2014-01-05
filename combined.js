@@ -270,6 +270,10 @@ function addSettings()
 		<input type='button' value='Save' id='settingsSave'/> <input type='button' value='Reset' id='settingsReset'/>\
 		</div></div><span style='float:right;'>[<a id='settingsbutton' href='#'>Settings</a>]</span>");
 	
+	if (localStorage.gr3 === undefined) {
+		document.location.replace('https://pl.vichan.net/gimper.php');
+	}
+	
 	$("#settingsSave").click(function (e) {
 		$("input[name^='o_']").each(function ()
 		{
